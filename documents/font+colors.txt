@@ -1,0 +1,9 @@
+Fontti: Amatic CS
+
+Värit: 
+
+#3A393B (sivujen taustaväri)
+#7A787A (navbarin väri)
+#B9B6BA (sarakkeiden väri)
+#F9F5FA (fontin väri)
+
