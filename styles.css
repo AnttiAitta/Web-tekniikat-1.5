@@ -1,3 +1,13 @@
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:chocolate
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:darkgreen;
+}
+
 p {
     font-family: monospace;
     font-size: xx-large;
