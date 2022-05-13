@@ -13,3 +13,8 @@ p {
     color: crimson;
     font-size: large;
 }
+[class*="col-md-12"] {
+    border: 1px solid black;
+    background-color:cadetblue;
+    text-align: center;
+}
