@@ -1,4 +1,4 @@
-Fontti: Amatic CS
+Fontti: Amatic SC
 
 Värit: 
 
