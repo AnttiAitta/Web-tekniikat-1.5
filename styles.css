@@ -2,13 +2,26 @@ body {
     background-color: #3A393B;
 }
 
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #F9F5FA;
+    font-size: xx-large;
+
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #F9F5FA;
+    font-size: x-large;
+}
+
 p {
     font-family: 'Amatic SC', cursive;
     color: #F9F5FA;
     font-size: large;
 }
 
-.center {
+.image {
     display: block;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -16,3 +29,66 @@ p {
     margin-right: auto;
     width: 100%;
   }
+
+  .image2 {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .coverart {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  table {
+      background-color: #3A393B;
+      color: #F9F5FA;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+
+  .btn-primary {
+    color: #F9F5FA;
+    border-color: black;
+    background-color: #7A787A;
+  }
+
+  .btn-primary:hover {
+      color: #3A393B;
+      border-color: black;
+      background-color: #F9F5FA;
+
+
+  }
+
+  footer {
+    display: flex;
+    background-color: #7A787A;
+    grid-column: 1/6;
+    grid-row: 4/5;
+    padding: 5px;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+footer div {
+    flex-grow: 5;
+    text-align: right;
+}
+
+footer img {
+    height: 80px;
+    margin: 10px;
+    filter: invert(100%);
+}

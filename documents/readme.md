@@ -10,3 +10,4 @@ Eteneminen:
 12.5. Versionhallinta, julkaiseminen (GitHub) + UI Design
 13.5. Bootsrap
 17.5. JS DOM
+18.5. Yleistä puuhastelua sivujen parissa

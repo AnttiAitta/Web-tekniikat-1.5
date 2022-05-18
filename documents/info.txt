@@ -1,0 +1,20 @@
+Fonts: 
+
+Amatic SC
+
+
+Colors: 
+
+#3A393B (background)
+#7A787A (navbar + footer)
+#B9B6BA (columns)
+#F9F5FA (fonts)
+
+Bootstraps:
+
+Navbar (all pages)
+Accordion (page #1)
+Buttons (page #2)
+
+
+
