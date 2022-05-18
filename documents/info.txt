@@ -6,9 +6,10 @@ Amatic SC
 Colors: 
 
 #3A393B (background)
-#7A787A (navbar + footer)
+#F9F5FA (navbar +fonts)
 #B9B6BA (columns)
-#F9F5FA (fonts)
+#7A787A (footer)
+
 
 Bootstraps:
 
