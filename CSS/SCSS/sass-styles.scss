@@ -1,3 +1,5 @@
+/*Variables*/
+
 $highlight-color: #F9F5FA;
 $background-color: #3A393B;
 $font-stack: 'Amatic SC', cursive;
@@ -17,6 +19,7 @@ h1, h2 {
     color: $highlight-color;
     font-size: xx-large;
 
+
 }
 
 h3 {
@@ -29,6 +32,7 @@ p {
     font-family: $font-stack;
     color: $highlight-color;
     font-size:medium;
+    text-align: center;
 }
 
 .image {
@@ -47,6 +51,16 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  .accordion-item {
+    background-color: #3A393B;
+    color:#7A787A;
+  }
+
+  .accordion-body {
+    background-color: #3A393B;
+    color:#7A787A;
   }
 
   .coverart {
@@ -72,12 +86,14 @@ p {
     color: $highlight-color;
     border-color: black;
     background-color: $background-color;
-    :hover {
+    }
+
+    .btn-primary:hover {
         color: $background-color;
         border-color: black;
         background-color: $highlight-color;
   }
-  }
+ 
 
   footer {
     display: flex;
@@ -98,3 +114,37 @@ p {
 }
 }
 
+/*Selectors*/
+
+p ~ ol {
+    background: #F9F5FA;
+    color: $background-color;
+  }
+
+p ~ h3 {
+    background: #F9F5FA;
+    color: $background-color;
+  }
+
+div > p {
+      background-color: yellow;
+      color: $background-color
+  }
+
+  /*Events*/
+
+  .special {
+    font-size: 3em;
+    display: inline-block;
+  }
+
+  .textcolor {
+    color: red;
+  }
+  .textbg {
+    background-color:blue;
+  }
+
+  .imagecolor {
+    filter: invert(100%);
+  }
