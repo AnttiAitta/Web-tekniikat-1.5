@@ -1,23 +1,33 @@
+$highlight-color: #F9F5FA;
+$background-color: #3A393B;
+$font-stack: 'Amatic SC', cursive;
+
+
+/*@mixin theme ($theme: DarkGrey) {
+    background: $theme;
+    box-shadow: 0 0 1px rgb($theme, .25);
+}*/
+
 body {
-    background-color: #3A393B;
+    background-color: $background-color;
 }
 
 h1, h2 {
-    font-family: 'Amatic SC', cursive;
-    color: #F9F5FA;
+    font-family: $font-stack;
+    color: $highlight-color;
     font-size: xx-large;
 
 }
 
 h3 {
-    font-family: 'Amatic SC', cursive;
-    color: #F9F5FA;
+    font-family: $font-stack;
+    color: $highlight-color;
     font-size: x-large;
 }
 
 p {
-    font-family: 'Amatic SC', cursive;
-    color: #F9F5FA;
+    font-family: $font-stack;
+    color: $highlight-color;
     font-size:medium;
 }
 
@@ -49,8 +59,8 @@ p {
   }
 
   table {
-      background-color: #3A393B;
-      color: #F9F5FA;
+      background-color: $background-color;
+      color: $highlight-color;
       margin-top: 2em;
       margin-bottom: 2em;
       margin-left: auto;
@@ -59,13 +69,13 @@ p {
   }
 
   .btn-primary {
-    color: #F9F5FA;
+    color: $highlight-color;
     border-color: black;
-    background-color: #7A787A;
+    background-color: $background-color;
     :hover {
-        color: #3A393B;
+        color: $background-color;
         border-color: black;
-        background-color: #F9F5FA;
+        background-color: $highlight-color;
   }
   }
 
@@ -84,6 +94,7 @@ p {
         height: 80px;
         margin: 10px;
         filter: invert(100%);
+    }
 }
 }
-}
+

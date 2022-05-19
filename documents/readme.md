@@ -11,4 +11,4 @@ Eteneminen:
 13.5. Bootstrap
 17.5. JS DOM
 18.5. Yleistä puuhastelua sivujen parissa
-19.5. Bootstrap, CSS/LESS
+19.5. CSS/LESS
