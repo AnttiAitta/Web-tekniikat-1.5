@@ -12,3 +12,4 @@ Eteneminen:
 17.5. JS DOM
 18.5. Yleistä puuhastelua sivujen parissa
 19-20.5. CSS/LESS + JS Eventit
+20.5. JSON + REST
