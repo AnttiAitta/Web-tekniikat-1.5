@@ -11,5 +11,6 @@ Eteneminen:
 13.5. Bootstrap
 17.5. JS DOM
 18.5. Yleistä puuhastelua sivujen parissa
-19-20.5. CSS/LESS + JS Eventit
+19.5. CSS/LESS
+19-20.5. JS Eventit
 20.5. JSON + REST
