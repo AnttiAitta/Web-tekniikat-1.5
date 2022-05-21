@@ -41,17 +41,17 @@ p {
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
-.accordion-item {
-  background-color: #3A393B;
-  color: #7A787A;
+.accordion-button {
+  background-color: #7A787A;
+  color: #F9F5FA;
 }
 
 .accordion-body {
   background-color: #3A393B;
-  color: #7A787A;
+  color: #F9F5FA;
 }
 
 .coverart {
@@ -124,14 +124,6 @@ div > p {
 .special {
   font-size: 3em;
   display: inline-block;
-}
-
-.textcolor {
-  color: red;
-}
-
-.textbg {
-  background-color: blue;
 }
 
 .imagecolor {
